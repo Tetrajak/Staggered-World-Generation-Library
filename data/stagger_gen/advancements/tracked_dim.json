@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"in_overworld": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"dimension": "minecraft:overworld"
+				}
+			}
+		},
+		"in_nether": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"dimension": "minecraft:the_nether"
+				}
+			}
+		}
+	},
+	"requirements": [[
+		"in_overworld",
+		"in_nether"
+	]],
+	"rewards": {
+		"function": "stagger_gen:location_change_check"
+	}
+}

@@ -1,0 +1,2 @@
+execute unless block ~ ~-1 ~ #stagger_gen:groundcover_overworld run tp @s ~ ~ ~
+execute if block ~ ~-1 ~ #stagger_gen:groundcover_overworld positioned ~ ~-1 ~ run function stagger_gen:overworld/surface_ray
